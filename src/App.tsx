@@ -19,7 +19,7 @@ function App() {
       <CssBaseline />
       <Container maxWidth="sm">
         <Paper elevation={3}>
-          <div style={{ height: '500px', padding: '20px' }}>
+          <div style={{ height: '300px', padding: '20px' }}>
             <Grid
               container
               direction="row"
@@ -55,6 +55,14 @@ function App() {
                   English
                 </Button>
               </Grid>
+            </Grid>
+            <Grid
+              container
+              direction="row"
+              justify="center"
+              alignItems="center"
+            >
+              <h2>{t('test.message')}</h2>
             </Grid>
           </div>
         </Paper>
